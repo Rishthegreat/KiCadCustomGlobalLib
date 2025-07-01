@@ -1,0 +1,239 @@
+(footprint "BSC014N06NS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BSC014N06NS-3")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0.001 0)
+		(layer "F.SilkS")
+		(uuid "3dd8d8ac-ff90-4d13-a5ec-7a2133289ffa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BSC014N06NS"
+		(at 0 0.001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "291e860f-b054-4298-865e-2c652d4d5da9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "946bb0c8-b44a-47fc-be7f-81eb0cf50477")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cce29f95-ac41-4b4d-9740-5ddc6360c688")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -3)
+		(end -2.5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d56173df-9078-4e0d-8eb9-cf1d533d0a95")
+	)
+	(fp_line
+		(start -0.7 3.8)
+		(end -0.7 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "264b38a0-0552-44ad-b27c-5766c18d5e8c")
+	)
+	(fp_line
+		(start -0.7 3.9)
+		(end -0.7 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d06176fc-7bc6-45d2-8f72-7bb0801ec834")
+	)
+	(fp_line
+		(start 2.5 -3)
+		(end 2.5 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b38ee86-1787-421c-8a62-476816f3fd00")
+	)
+	(fp_arc
+		(start -0.7 3.8)
+		(mid -0.65 3.85)
+		(end -0.7 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01ff634a-8840-4e3b-966b-f2cccc12fd87")
+	)
+	(fp_arc
+		(start -0.7 3.9)
+		(mid -0.75 3.85)
+		(end -0.7 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c08cc914-63c9-454a-a952-c41a9d5fb09f")
+	)
+	(fp_line
+		(start -3.5 -4.29)
+		(end 3.5 -4.29)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71de49aa-319d-4b9c-800c-d61b793647ce")
+	)
+	(fp_line
+		(start -3.5 4.292)
+		(end -3.5 -4.29)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a103355-36ab-47f6-9b57-a65dffea323f")
+	)
+	(fp_line
+		(start 3.5 -4.29)
+		(end 3.5 4.292)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7aaacd5-286b-4e68-b9e9-b356f55cab30")
+	)
+	(fp_line
+		(start 3.5 4.292)
+		(end -3.5 4.292)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba4e67c9-b2f5-4ab2-9c2c-71c2b83433e1")
+	)
+	(fp_line
+		(start -2.5 -3)
+		(end 2.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "494b2aca-bf04-42d6-af7e-66c2776a3dca")
+	)
+	(fp_line
+		(start -2.5 3)
+		(end -2.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5d683ab-4e3d-4fe4-8251-ed9fb18e54d8")
+	)
+	(fp_line
+		(start 2.5 -3)
+		(end 2.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3abee695-f5f2-4b96-99bc-367e7ce54e1b")
+	)
+	(fp_line
+		(start 2.5 3)
+		(end -2.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e02e982-23a9-4479-a6e1-f8a80835c5a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.001 0)
+		(layer "F.Fab")
+		(uuid "8f743e5d-6510-481a-8738-fa8ed1c65d92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 2.775 90)
+		(size 1.035 3.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1d97347-3b20-43cf-a6a9-226790e79c47")
+	)
+	(pad "2" smd rect
+		(at 1.905 2.775)
+		(size 0.5 1.035)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3a85486-799a-4fdc-965d-369287e7490c")
+	)
+	(pad "3" smd rect
+		(at 0 -1.033)
+		(size 4.31 4.515)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fcff6612-953f-4fb2-bc2d-632017ae435a")
+	)
+	(embedded_fonts no)
+	(model "C:/KiCadProjects/KiCadCustomGlobalLib/3dmodels/BSC014N06NS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
