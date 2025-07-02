@@ -460,7 +460,7 @@
 		(uuid "d91374ba-aef6-467d-a08d-836bdf44d997")
 	)
 	(embedded_fonts no)
-	(model "C:/KiCadProjects/KiCadCustomGlobalLib/3dmodels/DRV8323RSRGZR.stp"
+	(model "${CUSTOM_GLOBAL_3DMODEL_DIR}/DRV8323RSRGZR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

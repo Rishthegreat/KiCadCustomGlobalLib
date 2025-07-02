@@ -328,7 +328,7 @@
 		(uuid "7db6543b-c674-4639-8228-bc36056cd874")
 	)
 	(embedded_fonts no)
-	(model "C:/KiCadProjects/KiCadCustomGlobalLib/3dmodels/62701021621.stp"
+	(model "${CUSTOM_GLOBAL_3DMODEL_DIR}/62701021621.stp"
 		(offset
 			(xyz 2.55 0.65 0)
 		)
